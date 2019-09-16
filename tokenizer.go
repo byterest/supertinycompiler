@@ -10,7 +10,7 @@ type Token struct {
 	Value string
 }
 
-// Tokenizer implemtemtion
+// Tokenizer implementation
 func Tokenizer(input string) []Token {
 	var current = 0
 	var tokens []Token

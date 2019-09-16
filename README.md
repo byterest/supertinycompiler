@@ -1,1 +1,1 @@
-This project is of https://github.com/jamiebuilds/the-super-tiny-compiler in go
+This project is implementation of https://github.com/jamiebuilds/the-super-tiny-compiler in go

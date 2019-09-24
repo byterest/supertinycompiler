@@ -52,7 +52,7 @@ func Tokenizer(input string) []Token {
 		if unicode.IsLetter(rune(char)) {
 			value := ""
 			for unicode.IsLetter(rune(char)) {
-				value = string(char) + value
+				value = value + string(char)
 				current++
 				if current >= L {
 					break
